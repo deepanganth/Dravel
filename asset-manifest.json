@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Dravel/static/css/main.af2bc80b.css",
+    "main.js": "/Dravel/static/js/main.0a386b2c.js",
+    "static/js/787.bff9be08.chunk.js": "/Dravel/static/js/787.bff9be08.chunk.js",
+    "static/media/logo.png": "/Dravel/static/media/logo.d2a361f6405ce972757f.png",
+    "static/media/login-bg.png": "/Dravel/static/media/login-bg.5cbe088fa8331d2d99e2.png",
+    "static/media/bg1.jpg": "/Dravel/static/media/bg1.f428af39e454487a684f.jpg",
+    "static/media/hotel-member.jpg": "/Dravel/static/media/hotel-member.a7bf2cf3dae7f1a44e46.jpg",
+    "static/media/hotel-admin.jpg": "/Dravel/static/media/hotel-admin.9b7ac766d0667052f967.jpg",
+    "static/media/bg.jpg": "/Dravel/static/media/bg.f663e6d8523076072cd7.jpg",
+    "index.html": "/Dravel/index.html",
+    "main.af2bc80b.css.map": "/Dravel/static/css/main.af2bc80b.css.map",
+    "main.0a386b2c.js.map": "/Dravel/static/js/main.0a386b2c.js.map",
+    "787.bff9be08.chunk.js.map": "/Dravel/static/js/787.bff9be08.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af2bc80b.css",
+    "static/js/main.0a386b2c.js"
+  ]
+}
