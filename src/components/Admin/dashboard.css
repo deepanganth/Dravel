@@ -1,0 +1,233 @@
+.main{
+    background: url(./AdminImages/bg.jpg);
+    background-size: 100;
+    display: flex;
+    justify-content: space-evenly;
+}
+.left{
+  width: 50%;
+  height: 100vh;
+}
+.s-box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 17rem;
+  height: 6rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px ;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 4px, rgba(0, 0, 0, 0.5) 0px 7px 13px -3px, rgba(0, 0, 0, 0.4) 0px -3px 0px inset;
+}
+.left-top-1{
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left-bottom-1{
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.s-box-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 4rem;
+  height: 4rem;
+}
+.s-box-right{
+  margin-bottom: 20px;
+}
+.s-box-count{
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
+.s-box-name{
+  font-size: 1.2rem;
+  color: white;
+}
+.left-top-2{
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+}
+.left-bottom-2{
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+}
+.progress-bar{
+  justify-content: space-around;
+  align-items: center;
+  width: 30rem;
+  height: 7rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px ;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 4px, rgba(0, 0, 0, 0.5) 0px 7px 13px -3px, rgba(0, 0, 0, 0.4) 0px -3px 0px inset;
+}
+.progress-bar-top{
+  height: 3.5rem;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+}
+.progress-bar-bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5rem;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: space-around;
+  align-items: center;
+}
+.room-list{
+  width: 15rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 4px, rgba(0, 0, 0, 0.5) 0px 7px 13px -3px, rgba(0, 0, 0, 0.4) 0px -3px 0px inset;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.guest-list{
+  width: 15rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 4px, rgba(0, 0, 0, 0.5) 0px 7px 13px -3px, rgba(0, 0, 0, 0.4) 0px -3px 0px inset;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* -------------------------------------------- */
+@media only screen and (max-width: 600px) {
+  .left{
+    width: 100%;
+    height: 50%;
+  }
+  .s-box{
+  width: 11.5rem;
+  height: 5rem;
+  }
+  .s-box-img img{
+    margin-top: 1rem;
+    width: 2rem;
+    height: 2rem;
+  }
+  .s-box-right{
+    margin-top: 1rem;
+  }
+  .s-box-count{
+    font-size: .8rem;
+  }
+  .s-box-name{
+    font-size: .8rem;
+  }
+  .progress-bar{
+    justify-content: space-around;
+    align-items: center;
+    width: 20rem;
+    height: 5rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px ;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 4px, rgba(0, 0, 0, 0.5) 0px 7px 13px -3px, rgba(0, 0, 0, 0.4) 0px -3px 0px inset;
+  }
+  .progress-bar-top{
+    height: 2rem;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .progress-bar-top h1{
+    font-size: 1.3rem;
+  }
+  .progress-bar-top h2{
+    font-size: 1.3rem;
+  }
+  .progress-bar-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+  }
+  .progress-bar h2{
+    font-weight: 400;
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+  }
+  .room-list h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  .guest-list h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  .right{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    width: 24.2rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .right img{
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .room-list{
+    width: 8rem;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 4px, rgba(0, 0, 0, 0.5) 0px 7px 13px -3px, rgba(0, 0, 0, 0.4) 0px -3px 0px inset;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .guest-list{
+    width: 8rem;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 4px, rgba(0, 0, 0, 0.5) 0px 7px 13px -3px, rgba(0, 0, 0, 0.4) 0px -3px 0px inset;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+}
+progress {
+  -webkit-appearance:none ;
+}
+
+::-webkit-progress-bar {
+  background-color: rgb(25, 32, 240);
+}

@@ -1,0 +1,104 @@
+/*----- main-1 -----*/
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(250, 255, 253);
+    background-position: center;
+    background-size: cover;
+}
+.main-1{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* --------------------- */
+.logo{
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+.logo img{
+    width: 7rem;
+    height: 5.7rem;
+}
+.logo-name h1,p{
+   margin: 0;
+}
+/* ------------------- */
+.note{
+    margin-top: 2rem;
+}
+.note h2{
+    padding-left: 2rem ;
+}
+.note h2,p{
+    margin: 0;
+}
+/* ------------------- */
+.loginImg{
+    margin-top: 2rem;
+}
+.loginImg img{
+    margin-left: 5rem;
+    width: 30rem;
+    height: 22rem;
+}
+/* ------------------- */
+/* ------ main-2 ------ */
+.main-2{
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+    background-color: rgb(221, 252, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    right: 0;
+}
+.form-bx{
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.759);
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 248, 47, 0.486);
+    border-radius: 50px;
+    width: 40rem;
+    height: 70vh;
+}
+.form-bx input{
+    border: none;
+    color: white;
+    font-size: 1rem;
+    padding:5px 5rem ;
+    background-color: rgba(0, 0, 0, 0.639);
+    height: 2rem;
+    border-radius: 10px;
+}
+.form-bx button{
+    margin-left: 1rem;
+    margin-top: 3.5rem;
+    background-color: rgba(255, 0, 0, 0.533);
+    border-radius: 5px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 13px 8.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form-bx form{
+    margin-left: 4rem;
+}
